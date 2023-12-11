@@ -1,0 +1,8 @@
+.navStyle {
+    display: "flex";
+    justify-content: "space-around";
+    border-bottom: ".2rem solid black";
+    padding: ".5rem";
+    width: "90%";
+    margin: "auto";
+};
