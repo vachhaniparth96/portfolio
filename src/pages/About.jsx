@@ -17,9 +17,9 @@ const About = (props) => {
     const loaded = () => {
         return (
             <div>
-                <h2>{about.name}</h2>
-                <h3>{about.email}</h3>
-                <p>{about.bio}</p>
+                <h2 className="text-4xl font-bold text-center">{about.name}</h2>
+                <h3 className="text-center font-mono">Contact Me At: {about.email}</h3>
+                <p className="text-xl font-mono text-center">{about.bio}</p>
             </div>
         )
     }

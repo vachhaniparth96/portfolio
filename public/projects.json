@@ -3,12 +3,12 @@
 		"name": "M4ST3RM1ND",
 		"live": "https://vachhaniparth96.github.io/Project-1-Mastermind-Game/",
 		"git": "https://github.com/vachhaniparth96/Project-1-Mastermind-Game",
-		"image": "https://imgur.com/a/gnsh3LQ"
+		"image": "./assets/Base_Game_Screen.png"
 	},
 	{
 		"name": "Tender",
 		"live": "https://tender-f3bf64ad9858.herokuapp.com/",
 		"git": "https://github.com/valenium/Tinder-But-For-Restaurants",
-		"image": "https://imgur.com/a/cegxUQ8"
+		"image": "./assets/tender_homepage.png"
 	}
 ]

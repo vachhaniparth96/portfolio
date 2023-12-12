@@ -17,14 +17,18 @@ const Projects = (props) => {
 	const loaded = () => {
 		return projects.map((project, idx) => (
 			<div key="idx">
-				<h2>{project.name}</h2>
-				<img src={project.image} alt={project.name} />
+				<h2 className="p-3 text-center font-bold text-2xl">{project.name}</h2>
+				<div className="flex justify-center items-center m-3">
+                <img src={`${project.image}`} alt={project.name} />
+                </div>
+                <div className="flex justify-center items-center">
 				<a href={project.live}>
-					<button>Link to App</button>
-				</a>
+					<button  className="bg-black text-white dark:bg-white dark:text-black m-3 px-5 py-5 rounded">Link to App</button>
+				</a> 
 				<a href={project.git}>
-					<button>GitHub</button>
+					<button className=" bg-black text-white dark:bg-white dark:text-black px-5 py-5 rounded">GitHub</button>
 				</a>
+                </div>
 			</div>
 		));
 	};
