@@ -2,14 +2,7 @@ import TenderCarousel from "../components/TenderCarousel";
 import { useState, useEffect } from "react";
 
 const Tender = () => {
-    const TenderSlides = [
-        "./Tender/Home_Page.png",
-        "./Tender/filter.png",
-        "./Tender/restaurants.png",
-        "./Tender/users.png",
-        "./Tender/Like_Dislike_Save.png",
-        "./Tender/Review.png"
-    ]
+
 
     const [projects, setProjects] = useState(null);
 
@@ -35,7 +28,7 @@ const Tender = () => {
 	return (
 		<div>
 			<div className="w-[80%] m-auto pt-11">
-				<TenderCarousel TenderSlides={TenderSlides} />
+				<TenderCarousel />
 			</div>
             <div className="flex justify-center gap-5 m-auto pt-5">
                 <a href={projects[1].live}><button className=" bg-black text-white dark:bg-white dark:text-black px-5 py-5 rounded">Link To App</button></a>
