@@ -11,6 +11,8 @@ import Footer from "../components/Footer"
 import Home from "../pages/Home"
 import About from "../pages/About"
 import Projects from "../pages/Projects"
+import Mastermind from "../pages/Mastermind";
+import Tender from "../pages/Tender";
 
 function App() {
 	return (
@@ -20,6 +22,8 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
+				<Route path="/Mastermind" element={<Mastermind />} />
+				<Route path="/Tender" element={<Tender />} />
 			</Routes>
 			<Footer />
 		</div>
