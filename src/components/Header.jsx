@@ -21,7 +21,6 @@ const Header = (props) => {
             <h1 className="navStyle text-5xl font-bold italic underline flex-intial text-center p-5">Parth Vachhani</h1>
             <Nav />
             <button onClick={() => toggleDarkMode()} className="absolute right-10 top-5 bg-black text-white dark:bg-white dark:text-black px-5 py-5 rounded"> { isDarkMode() ? "Light" : "Dark" } Mode</button>
-            {console.log(darkMode)}
         </div>
     )
 }
