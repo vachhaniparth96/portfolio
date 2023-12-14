@@ -3,10 +3,7 @@ import { useState, useEffect } from "react";
 import MasterMindCarousel from "../components/MasterMindCarousel";
 import TenderCarousel from "../components/TenderCarousel";
 import { Link } from "react-router-dom";
-import { FaCss3 as CSS, FaHtml5 as HTML } from "react-icons/fa";
-import { IoLogoJavascript as JavaScript } from "react-icons/io";
-import { SiMongodb as MongoDB} from "react-icons/si";
-import { SiNodedotjs as NodeJS} from "react-icons/si";
+
 
 
 const Projects = (props) => {

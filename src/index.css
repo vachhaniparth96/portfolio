@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=Poiret+One&family=Ropa+Sans&display=swap');
 
 .dark {
   @apply bg-gray-800 text-white;
