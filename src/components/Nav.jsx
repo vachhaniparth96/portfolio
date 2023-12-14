@@ -9,10 +9,6 @@ const Nav = () => {
             <Link to="/">Home</Link>
             <Link to="/about">About Me</Link>
             <Link to="/projects">My Projects</Link>
-            {/* &nbsp;|&nbsp; */}
-            {/* <Link to="/contact">Contact Me</Link> */}
-            {/* &nbsp;|&nbsp; */}
-            {/* <Link to="/resume">Resume</Link> */}
         </nav>
     )
 }
