@@ -1,8 +1,5 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Basic rough draft of how I would want my porfolio to look, future iterations would involve making it a single-page scrollable portfolio, a better color palette for light mode and more animations. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Shoutout to AyyazTech (https://www.youtube.com/@AyyazTech) for the guides on dark mode and light mode functionality and image carousels for the projects.
