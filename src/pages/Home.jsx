@@ -5,7 +5,6 @@ import { SiNodedotjs as NodeJS} from "react-icons/si";
 import { SiTailwindcss as Tailwind} from "react-icons/si";
 import { FaReact as React} from "react-icons/fa";
 import { SiExpress as Express} from "react-icons/si";
-import { HiOutlineMail as Email} from "react-icons/hi";
 import { FaLinkedin as LinkedIn} from "react-icons/fa";
 import { FaGithub as GitHub} from "react-icons/fa";
 
@@ -35,9 +34,8 @@ const Home = () => {
             <p className="flex justify-center text-center font-ropa-sans text-5xl m-auto p-5">Get In Touch With Me: </p>
             <div className="flex flex-row justify-center">
                 <ul className="flex gap-3 pb-5">
-                    <li className="text-4xl"><Email /></li> 
-                    <li className="text-4xl"><LinkedIn /></li>
-                    <li className="text-4xl"><GitHub /></li>
+                    <li className="text-4xl"><a href="https://www.linkedin.com/in/parthvachhani/"><button><LinkedIn /></button></a></li>
+                    <li className="text-4xl"><a href="https://github.com/vachhaniparth96/"><button><GitHub /></button></a></li>
                 </ul>
             </div>
         </div>
