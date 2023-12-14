@@ -7,7 +7,7 @@
         "tech": ["HTML", "CSS", "JavaScript"],
 		"live": "https://vachhaniparth96.github.io/Project-1-Mastermind-Game/",
 		"git": "https://github.com/vachhaniparth96/Project-1-Mastermind-Game",
-		"image": "./assets/Mastermind/Base_Game_Screen.png"
+		"image": "./Mastermind/Base_Game_Screen.png"
 	},
 	{
 		"name": "Tender",
@@ -17,6 +17,6 @@
         "tech": ["HTML", "CSS", "JavaScript", "NodeJS", "ExpressJS", "MongoDB", "Mongoose", "EJS"],
 		"live": "https://tender-f3bf64ad9858.herokuapp.com/",
 		"git": "https://github.com/valenium/Tinder-But-For-Restaurants",
-		"image": "./assets/Tender/Home_Page.png"
+		"image": "./Tender/Home_Page.png"
 	}
 ]
