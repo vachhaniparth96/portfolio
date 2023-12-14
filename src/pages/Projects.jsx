@@ -1,23 +1,10 @@
 //Imports
-import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import projects  from "../data/projects.json";
 
 
 
 const Projects = () => {
-
-	// const [projects, setProjects] = useState(null);
-
-	// const getProjectData = async () => {
-	// 	const response = await fetch("./projects.json");
-	// 	const data = await response.json();
-	// 	setProjects(data);
-	// };
-
-	// useEffect(() => {
-    //     getProjectData()
-    // }, []);
 
 	const loaded = () => {
 		return (

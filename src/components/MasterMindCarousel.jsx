@@ -1,4 +1,4 @@
-import { useState, useEffect  } from "react";
+import { useState  } from "react";
 import { FaCircleArrowRight, FaCircleArrowLeft } from "react-icons/fa6";
 
 const MasterMindCarousel = () => {

@@ -1,31 +1,8 @@
 import TenderCarousel from "../components/TenderCarousel";
-import { useState, useEffect } from "react";
 import projects from "../data/projects.json";
 
 const Tender = () => {
 
-
-    // const [projects, setProjects] = useState(null);
-
-	// const getProjectData = async () => {
-	// 	const response = await fetch("../../public/projects.json");
-	// 	const data = await response.json();
-	// 	setProjects(data);
-	// };
-
-	// useEffect(() => {
-    //     getProjectData()
-    // }, []);
-
-    // const loading = () => {
-    //     return (
-    //         <div>
-    //             <h1>Loading...</h1>
-    //         </div>
-    //     )
-    // }
-
-    // const loaded = () => {
 	return (
 		<div>
 			<div className="w-[80%] m-auto pt-11">
@@ -45,8 +22,6 @@ const Tender = () => {
             </div>
 		</div>
 	);
-// }
-//     return projects ? loaded() : loading();
 };
 
 export default Tender;
