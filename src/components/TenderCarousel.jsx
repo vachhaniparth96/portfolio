@@ -3,14 +3,14 @@ import { FaCircleArrowRight, FaCircleArrowLeft } from "react-icons/fa6";
 
 const TenderCarousel = () => {
 	const TenderSlides = [
-        "./Tender/Home_Page.png",
-        "./Tender/filter.png",
-        "./Tender/restaurants.png",
-        "./Tender/users.png",
-        "./Tender/Like_Dislike_Save.png",
-        "./Tender/Review.png"
+        "/Tender/Home_Page.png",
+        "/Tender/filter.png",
+        "/Tender/restaurants.png",
+        "/Tender/users.png",
+        "/Tender/Like_Dislike_Save.png",
+        "/Tender/Review.png"
     ];
-	
+
 	const [current, setCurrent] = useState(0);
 
 	const prevSlide = () => {
