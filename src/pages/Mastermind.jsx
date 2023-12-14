@@ -2,15 +2,7 @@ import MasterMindCarousel from "../components/MasterMindCarousel";
 import { useState, useEffect } from "react";
 
 const Mastermind = () => {
-	const MasterMindSlides = [
-		"/Mastermind/Base_Game_Screen.png",
-		"/Mastermind/Instructions.png",
-		"/Mastermind/Gameplay_And_Accuracy.png",
-		"/Mastermind/Lose_Screen.png",
-		"/Mastermind/Win_Screen.png",
-		"/Mastermind/Erase_Button.gif",
-		"/Mastermind/Submit_Button.gif",
-	];
+
 
     const [projects, setProjects] = useState(null);
 
@@ -36,7 +28,7 @@ const Mastermind = () => {
 	return (
 		<div>
 			<div className="w-[35%] m-auto pt-11">
-				<MasterMindCarousel MasterMindSlides={MasterMindSlides} />
+				<MasterMindCarousel />
 			</div>
             <div className="flex justify-center gap-5 m-auto pt-5">
                 <a href={projects[0].live}><button className=" bg-black text-white dark:bg-white dark:text-black px-5 py-5 rounded">Link To App</button></a>

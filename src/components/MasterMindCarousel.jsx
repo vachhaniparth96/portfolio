@@ -1,7 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect  } from "react";
 import { FaCircleArrowRight, FaCircleArrowLeft } from "react-icons/fa6";
 
-const MasterMindCarousel = ({ MasterMindSlides }) => {
+const MasterMindCarousel = () => {
+	const MasterMindSlides = [
+		"/Mastermind/Base_Game_Screen.png",
+		"/Mastermind/Instructions.png",
+		"/Mastermind/Gameplay_And_Accuracy.png",
+		"/Mastermind/Lose_Screen.png",
+		"/Mastermind/Win_Screen.png",
+		"/Mastermind/Erase_Button.gif",
+		"/Mastermind/Submit_Button.gif",
+	];
+
+	// console.log(MastermindSlides);
 	const [current, setCurrent] = useState(0);
 
 	const prevSlide = () => {
