@@ -3,19 +3,9 @@ import { useState, useEffect } from "react";
 import { ImProfile as Resume} from "react-icons/im";
 import { FaLinkedin as LinkedIn} from "react-icons/fa";
 import { FaGithub as GitHub} from "react-icons/fa";
+import about from "../data/about.json";
 
 const About = () => {
-    const [about, setAbout] = useState(null);
-
-    const getAboutData = async () => {
-        const response = await fetch("./about.json")
-        const data = await response.json()
-        setAbout(data)
-    }
-
-    useEffect(() => {
-        getAboutData()
-    }, [])
 
     const loaded = () => {
         return (
