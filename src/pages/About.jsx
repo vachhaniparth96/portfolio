@@ -4,7 +4,7 @@ import { ImProfile as Resume} from "react-icons/im";
 import { FaLinkedin as LinkedIn} from "react-icons/fa";
 import { FaGithub as GitHub} from "react-icons/fa";
 
-const About = (props) => {
+const About = () => {
     const [about, setAbout] = useState(null);
 
     const getAboutData = async () => {

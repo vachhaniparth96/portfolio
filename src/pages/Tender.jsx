@@ -1,7 +1,7 @@
 import TenderCarousel from "../components/TenderCarousel";
 import { useState, useEffect } from "react";
 
-const Tender = (props) => {
+const Tender = () => {
     const TenderSlides = [
         "../../public/assets/Tender/Home_Page.png",
         "../../public//assets/Tender/filter.png",
@@ -43,7 +43,7 @@ const Tender = (props) => {
             </div>
             <div className="flex justify-center gap-5 pt-5">
                 Tech Used: {projects[1].tech.map((tech, idx) => (
-                    <p>{tech}</p>
+                    <p key={idx}>{tech}</p>
                 ))}
             </div>
             <div className="flex text-center gap-5 pt-5 ml-20 mr-20">

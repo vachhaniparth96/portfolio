@@ -27,7 +27,7 @@ const MasterMindCarousel = ({ MasterMindSlides }) => {
 				style={{ transform: `translateX(-${current * 100}%)` }}
 			>
 				{MasterMindSlides.map((s, idx) => {
-					return <img src={s} />;
+					return <img key={idx} src={s} alt="project images"/>;
 				})}
 			</div>
 

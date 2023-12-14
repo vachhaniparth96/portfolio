@@ -3,7 +3,7 @@ import Nav from "./Nav"
 import "./styles/header.css"
 import { useState } from "react";
 
-const Header = (props) => {
+const Header = () => {
     const [darkMode, setDarkMode] = useState(false);
 
     const toggleDarkMode = () => {

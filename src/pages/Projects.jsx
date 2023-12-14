@@ -1,12 +1,10 @@
 //Imports
 import { useState, useEffect } from "react";
-import MasterMindCarousel from "../components/MasterMindCarousel";
-import TenderCarousel from "../components/TenderCarousel";
 import { Link } from "react-router-dom";
 
 
 
-const Projects = (props) => {
+const Projects = () => {
 
 	const [projects, setProjects] = useState(null);
 
@@ -24,7 +22,7 @@ const Projects = (props) => {
 		return (
             <div>
                 {projects.map((project, idx) => (
-			<div key="idx">
+			<div key={idx}>
 				<h2 className="p-3 text-center font-bold text-2xl">{project.name}</h2>
 				<div className="flex justify-center items-center m-auto w-[60%]">
                 <img src={`${project.image}`} alt={project.name} />
@@ -33,7 +31,7 @@ const Projects = (props) => {
                 <p className="p-3 text-center font-semibold underline italic text-xl">Some Tech Used</p>
                 <div className="flex space-between justify-center gap-5">
                     {project.sometech.map((tech, idx) => (
-                        <p>{tech}</p>
+                        <p key={idx}>{tech}</p>
                     ))}
                 </div>
                 <div className="flex justify-center items-center mt-3">

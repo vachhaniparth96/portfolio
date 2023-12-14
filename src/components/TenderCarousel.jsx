@@ -27,7 +27,7 @@ const TenderCarousel = ({ TenderSlides }) => {
 				style={{ transform: `translateX(-${current * 100}%)` }}
 			>
 				{TenderSlides.map((s, idx) => {
-					return <img src={s} />;
+					return <img key={idx} src={s} alt="project images"/>;
 				})}
 			</div>
 

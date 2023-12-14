@@ -1,7 +1,7 @@
 import MasterMindCarousel from "../components/MasterMindCarousel";
 import { useState, useEffect } from "react";
 
-const Mastermind = (props) => {
+const Mastermind = () => {
 	const MasterMindSlides = [
 		"../../public/assets/Mastermind/Base_Game_Screen.png",
 		"../../public/assets/Mastermind/Instructions.png",
@@ -44,7 +44,7 @@ const Mastermind = (props) => {
             </div>
             <div className="flex justify-center gap-5 pt-5">
                 Tech Used: {projects[0].tech.map((tech, idx) => (
-                    <p>{tech}</p>
+                    <p key={idx}>{tech}</p>
                 ))}
             </div>
             <div className="flex text-center gap-5 pt-5 ml-20 mr-20">
