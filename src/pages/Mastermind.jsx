@@ -3,13 +3,13 @@ import { useState, useEffect } from "react";
 
 const Mastermind = () => {
 	const MasterMindSlides = [
-		"./assets/Mastermind/Base_Game_Screen.png",
-		"./assets/Mastermind/Instructions.png",
-		"./assets/Mastermind/Gameplay_And_Accuracy.png",
-		"./assets/Mastermind/Lose_Screen.png",
-		"./assets/Mastermind/Win_Screen.png",
-		"./assets/Mastermind/Erase_Button.gif",
-		"./assets/Mastermind/Submit_Button.gif",
+		"./Mastermind/Base_Game_Screen.png",
+		"./Mastermind/Instructions.png",
+		"./Mastermind/Gameplay_And_Accuracy.png",
+		"./Mastermind/Lose_Screen.png",
+		"./Mastermind/Win_Screen.png",
+		"./Mastermind/Erase_Button.gif",
+		"./Mastermind/Submit_Button.gif",
 	];
 
     const [projects, setProjects] = useState(null);

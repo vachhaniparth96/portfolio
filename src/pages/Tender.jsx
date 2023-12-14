@@ -3,12 +3,12 @@ import { useState, useEffect } from "react";
 
 const Tender = () => {
     const TenderSlides = [
-        "../../public/assets/Tender/Home_Page.png",
-        "../../public//assets/Tender/filter.png",
-        "../../public//assets/Tender/restaurants.png",
-        "../../public//assets/Tender/users.png",
-        "../../public//assets/Tender/Like_Dislike_Save.png",
-        "../../public//assets/Tender/Review.png"
+        "./Tender/Home_Page.png",
+        "./Tender/filter.png",
+        "./Tender/restaurants.png",
+        "./Tender/users.png",
+        "./Tender/Like_Dislike_Save.png",
+        "./Tender/Review.png"
     ]
 
     const [projects, setProjects] = useState(null);
