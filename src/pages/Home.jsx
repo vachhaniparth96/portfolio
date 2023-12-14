@@ -29,7 +29,7 @@ const Home = () => {
                 </ul>
             </div>
             <div className="flex justify-center">
-                <img src="../../public/assets/5eKX.gif" alt="gif"/>
+                <img src="./assets/5eKX.gif" alt="gif"/>
             </div>
             <p className="flex justify-center text-center font-ropa-sans text-5xl m-auto p-5">Get In Touch With Me: </p>
             <div className="flex flex-row justify-center">

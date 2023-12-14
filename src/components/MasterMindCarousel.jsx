@@ -12,7 +12,6 @@ const MasterMindCarousel = () => {
 		"/Mastermind/Submit_Button.gif",
 	];
 
-	// console.log(MastermindSlides);
 	const [current, setCurrent] = useState(0);
 
 	const prevSlide = () => {
@@ -30,6 +29,7 @@ const MasterMindCarousel = () => {
 			setCurrent(current + 1);
 		}
 	};
+
 
 	return (
 		<div className="overflow-hidden relative">
