@@ -7,7 +7,7 @@ const Mastermind = () => {
     const [projects, setProjects] = useState(null);
 
 	const getProjectData = async () => {
-		const response = await fetch("../../public/projects.json");
+		const response = await fetch("/projects.json");
 		const data = await response.json();
 		setProjects(data);
 	};
@@ -15,6 +15,7 @@ const Mastermind = () => {
 	useEffect(() => {
         getProjectData()
     }, []);
+    
 
     const loading = () => {
         return (
@@ -27,7 +28,7 @@ const Mastermind = () => {
     const loaded = () => {
 	return (
 		<div>
-			<div className="w-[35%] m-auto pt-11">
+			<div className="w-[34%] m-auto pt-11">
 				<MasterMindCarousel />
 			</div>
             <div className="flex justify-center gap-5 m-auto pt-5">
